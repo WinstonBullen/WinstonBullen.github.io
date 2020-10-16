@@ -467,6 +467,10 @@ b i:last-child {
     animation: intro 1s;
 }
 
+@media screen and (max-height: 800px) {
+    .mouse {display: none;}
+}
+
 .scroll {
     display: block;
     width: 3px;
