@@ -47,13 +47,19 @@ body {
     padding-right: 0;
 }
 
+#projHeaderText {
+    font-size: 220%;
+    text-decoration: underline;
+    text-decoration-color: rgba(142, 0, 224, 0.8);
+}
+
 .no-padding [class^="col-"] {
     padding-left: 0;
     padding-right: 0;
 }
 
 .main-container {
-    padding: 100px 0;
+    padding: 20px 0 10px;
 }
 
 #contactMe {
